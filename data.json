@@ -1,0 +1,23 @@
+{
+  "users": [
+    { "id": "1", "name": "Atılay" },
+    { "id": "2", "name": "Kevin" }
+  ],
+  "locations": [
+    { "id": "1", "name": "Conference Room A" },
+    { "id": "2", "name": "Conference Room B" }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "GraphQL Workshop",
+      "userId": "1",
+      "locationId": "1"
+    },
+    { "id": "2", "title": "Node.js Meetup", "userId": "2", "locationId": "2" }
+  ],
+  "participants": [
+    { "id": "1", "eventId": "1", "userId": "2" },
+    { "id": "2", "eventId": "2", "userId": "1" }
+  ]
+}
